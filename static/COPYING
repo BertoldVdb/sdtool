@@ -25,7 +25,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Furthermore, the static Raspberry Pi binary contains the MUSL libc which has the following license:
+Furthermore, the static binaries contain the MUSL libc which has the following license:
 
 musl as a whole is licensed under the following standard MIT license:
 
