@@ -96,7 +96,7 @@ uint16_t sdFindRca(char* filename)
     unsigned int controller;
     DIR *dir, *dir2;
     char devname[16];
-    char blockDevPath[256];
+    char blockDevPath[512];
     struct dirent *entry;
     int i;
     for(i=strlen(filename)-1; (i>0) && filename[i-1]!='/'; i--);
