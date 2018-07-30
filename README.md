@@ -29,4 +29,4 @@ For a quick demo, if you want to lock the SD card on your Raspberry Pi you can u
 $ wget "https://github.com/BertoldVdb/sdtool/blob/master/static/arm-sdtool?raw=true" -O arm-sdtool; chmod +x arm-sdtool; sudo ./arm-sdtool /dev/mmcblk0 lock
 ```
 
-License: ![BSD](https://api.bertold.org/badge/bsd)
+License: <img src="https://api.bertold.org/badge/bsd" alt="BSD">
