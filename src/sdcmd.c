@@ -100,7 +100,7 @@ uint16_t sdFindRca(char* filename)
     struct dirent *entry;
     int i;
     for(i=strlen(filename)-1; (i>0) && filename[i-1]!='/'; i--);
-    strncpy(devname,filename+i,sizeof(devname));
+    strncpy(devname,filename+i,sizeof(devname)-1);
     if ((dir = opendir ("/sys/bus/mmc/devices/")) != NULL) {
         while ((entry = readdir (dir)) != NULL) {
             if(!strcmp(entry->d_name,".") || !strcmp(entry->d_name,"..")) continue;
