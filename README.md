@@ -28,3 +28,11 @@ For a quick demo, if you want to lock the SD card on your Raspberry Pi you can u
 ```
 $ wget "https://github.com/BertoldVdb/sdtool/blob/master/static/arm-sdtool?raw=true" -O arm-sdtool; chmod +x arm-sdtool; sudo ./arm-sdtool /dev/mmcblk0 lock
 ```
+
+## Using sdtool on Android (Root Required)
+
+Modern Laptops don't have built-in card readers so we can use Android Mobiles's built in sdcard reader and termux as linux as alternative.
+
+`sdtool` can be compiled and run on a rooted Android device using Termux. This guide provides step-by-step instructions for unlocking SD cards with temporary write protection.
+
+follow this guide [here](ANDROID.md)
