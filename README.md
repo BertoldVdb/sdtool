@@ -31,8 +31,8 @@ $ wget "https://github.com/BertoldVdb/sdtool/blob/master/static/arm-sdtool?raw=t
 
 ## Using sdtool on Android (Root Required)
 
-Modern Laptops don't have built-in card readers so we can use Android Mobiles's built in sdcard reader and termux as linux as alternative.
+Modern laptops often lack built-in card readers, so you can use an Android phone's built-in SD card slot with Termux (root required) as an alternative.
 
 `sdtool` can be compiled and run on a rooted Android device using Termux. This guide provides step-by-step instructions for unlocking SD cards with temporary write protection.
 
-follow this guide [here](ANDROID.md)
+Follow this guide: [ANDROID.md](ANDROID.md)
